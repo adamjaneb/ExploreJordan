@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+main{
+    margin: 150px auto 20px;;
+}
+
+.blog-post {
+    max-width: 800px;
+    margin: 40px auto 20px; /* Increase the margin-top value and add margin-bottom */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    margin-bottom: 20px; /* Increase the margin-bottom value */
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.article-date {
+    font-size: 0.8em;
+    color: #777;
+    margin-bottom: 5px;
+}
+.article-content {
+    font-size: 0.8em;
+    color: #777;
+}

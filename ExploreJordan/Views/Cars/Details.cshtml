@@ -1,0 +1,158 @@
+﻿@using System.Runtime.ConstrainedExecution
+@model Car
+@{
+    // Check if the user is authenticated
+    bool isUserAuthenticated = User.Identity.IsAuthenticated;
+}
+@if (isUserAuthenticated)
+{
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.17.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css2/CarRentals.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <title>Book car</title>
+
+    <style>
+        p {
+            margin-top: 200px;
+        }
+
+        /* Style for unavailable dates */
+        .unavailable-date {
+            background-color: #FFCCCC; /* You can customize the background color */
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        var carAddress = "@Model.Address";
+
+        $(function () {
+            var carId = "@Model.Id"; // Replace with the actual way to get the car ID
+
+            $("#rentStartDate, #rentEndDate").datepicker({
+                dateFormat: 'dd/mm/yy',
+                beforeShowDay: function (date) {
+                    return [!isDateReserved(carId, date), ''];
+                },
+                onSelect: function (selectedDate) {
+                    calculateTotalPrice();
+                    setTimeout(checkConfirmButton, 0); // Introduce a slight delay
+                },
+                minDate: 0 // Set minDate to 0 to disable selection of past dates
+            });
+        });
+
+        function isDateReserved(carId, date) {
+            var formattedDate = $.datepicker.formatDate("dd/mm/yy", date);
+
+            // Check if the date is reserved
+            var isReserved = false;
+            $.ajax({
+                url: "/Reservation/IsDateReserved",
+                type: "POST",
+                async: false,
+                data: { carId: carId, selectedDate: formattedDate },
+                success: function (result) {
+                    isReserved = result.isReserved;
+                },
+                error: function () {
+                    console.log("Error checking date reservation.");
+                }
+            });
+
+            return isReserved; // Return true if the date is reserved
+        }
+
+        function calculateTotalPrice() {
+            var startDate = $("#rentStartDate").datepicker("getDate");
+            var endDate = $("#rentEndDate").datepicker("getDate");
+
+            if (startDate && endDate) {
+                var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+                var diffDays = Math.round(Math.abs((startDate - endDate) / oneDay)) + 1;
+
+                var dailyPrice = parseFloat("@Model.Price");
+                var totalPrice = diffDays * dailyPrice;
+
+                $("#totalPrice").text(totalPrice.toFixed(2) + " JD");
+            }
+        }
+
+        function checkConfirmButton() {
+            var startDate = $("#rentStartDate").datepicker("getDate");
+            var endDate = $("#rentEndDate").datepicker("getDate");
+
+            var confirmButton = $("#confirmBookingBtn");
+
+            if (startDate && endDate) {
+                confirmButton.prop("disabled", false);
+            } else {
+                confirmButton.prop("disabled", true);
+            }
+        }
+
+        function confirmBooking() {
+            var startDate = $("#rentStartDate").datepicker("getDate");
+            var endDate = $("#rentEndDate").datepicker("getDate");
+
+            if (startDate && endDate) {
+                // Format dates as 'dd/mm/yy'
+                var formattedStartDate = $.datepicker.formatDate("dd/mm/yy", startDate);
+                var formattedEndDate = $.datepicker.formatDate("dd/mm/yy", endDate);
+
+                var carId = "@Model.Id";
+
+                $.ajax({
+                    url: "/Reservation/ReserveCar",
+                    type: "POST",
+                    data: { carId: carId, startDate: formattedStartDate, endDate: formattedEndDate },
+                    success: function (result) {
+                        if (result.success) {
+                            alert(result.message);
+                        } else {
+                            alert("Error: " + result.message);
+                        }
+                    },
+                    error: function () {
+                        alert("An error occurred while processing your request.");
+                    }
+                });
+            } else {
+                alert("Please select start and end dates before confirming the booking.");
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+    <label for="rentStartDate">Start Date:</label>
+    <input type="text" id="rentStartDate" class="datepicker" />
+
+    <label for="rentEndDate">End Date:</label>
+    <input type="text" id="rentEndDate" class="datepicker" />
+
+    <div>Total Price: <span id="totalPrice">0.00 JD</span></div>
+
+    <button id="confirmBookingBtn" onclick="confirmBooking()">Confirm Booking</button>
+
+
+
+    @section Scripts {
+        <script src="~/js/cars-delete.js" asp-append-version="true"></script>
+    }
+</body>
+</html>
+}
+else
+{
+    <!-- Redirect the user to the sign-in page -->
+    <script>window.location.href = "/Account/Login";</script>
+}

@@ -1,0 +1,32 @@
+﻿@page
+@model ConfirmEmailModel
+@{
+    ViewData["Title"] = "Confirm email";
+}
+<style>
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin-left: 570px;
+    }
+
+    #msg {
+        border: solid;
+        background-color: rgb(154, 191, 111);
+        text-align: center; 
+        padding: 10px; 
+        max-width: 800px; 
+        margin-left:270px;
+        margin-top:20px;
+        color: green; 
+    }
+
+</style>
+<div class="logo" id="logo">
+    <a asp-controller="Home" asp-action="Homepage">
+        <img src="~/img/Logo2.png" alt="Your Logo" />
+    </a>
+</div>
+<div id="msg">
+    <partial name="_StatusMessage" model="Model.StatusMessage" />
+</div>

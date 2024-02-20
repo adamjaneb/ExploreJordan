@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    height: 500px;
+}
+
+/* Banner Styling */
+.banner {
+    position: relative;
+    margin-top: 120px;
+}
+
+/* Contact Section Styling */
+.contact-container-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.support-content {
+    margin: 20px;
+}
+
+.contact-box support-container {
+    height: 100px;
+}
+.contact-box,
+.support-container {
+    width: 48%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 150px; 
+    background-color: rgba(255, 255, 255, 0.592);
+    margin-top: 100px;
+    position: relative;
+}
+
+.contact-section {
+    max-width: 800px;
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.592);
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 27%;
+}
+
+.contact-section h2 {
+    color: #3984cc;
+    text-align: center;
+}
+
+.contact-section p {
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-box p {
+    margin: 10px 0;
+}
+
+.contact-box img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.support-container img {
+    max-width: 100%;
+    width: auto;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.support-button {
+    padding: 10px 20px;
+    background-color: #3984cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.support-button:hover {
+    background-color: #205a8d;
+}
+
+#google_translate_element {
+    /* Your styles for the translation dropdown */
+    position: absolute; /* or relative, fixed, etc. based on your layout */
+    top: 10px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+}

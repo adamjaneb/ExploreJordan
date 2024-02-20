@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/homepage.css" />
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	<script src="~/lib/jquery-validation/dist/additional-methods.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/additional-methods.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="~/lib/sweetalert2/sweetalert2.min.css" />
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,ar,es,fr,de,ja,ko,zh-CN' }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript">
+        function toggleTranslateDropdown() {
+            var translateElement = document.getElementById("google_translate_element");
+            translateElement.style.display = (translateElement.style.display === "none") ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo" id="logo">
+                <a asp-controller="Home" asp-action="Homepage">
+                    <img src="~/img/Logo2.png" alt="ExploreJordan Logo">
+                </a>
+            </div>     
+            <div class="search-bar">
+                <form  asp-controller="Combined" asp-action="Search" method="get">
+                    <input type="search" name="searchQuery" placeholder="Start your search" id="search-bar">
+                    <button type="submit" style="border-radius: 25px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+         
+            <div class="lang-currency">
+                <img src="~/img/Lang.png" alt="Language/Currency Logo" onclick="toggleTranslateDropdown()">
+            </div>
+            <div class="sign-in">
+                <img src="~/img/Login.png" alt="Log-in Icon" id="signin">
+
+                <div class="dropdown-content" id="dropdown-content" data-is-signed-in="@User.Identity.IsAuthenticated.ToString().ToLower()">
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var dropdownContent = document.getElementById("dropdown-content");
+
+                    var isSignedIn = dropdownContent.getAttribute("data-is-signed-in") === "true";
+
+                    dropdownContent.style.height = isSignedIn ? "210px" : "100px";
+                });
+            </script>
+            <div id="google_translate_element" style="display: none;"></div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a asp-controller="Accommodation" asp-action="accommodation">Accomodation</a></li>
+            <li><a asp-controller="Tours" asp-action="tours">Tours</a></li>
+            <li><a asp-controller="Activities" asp-action="activities">Activities</a></li>
+            <li><a asp-controller="CarRentals" asp-action="cars">Car Rentals</a></li>
+            <li><a asp-controller="Souvenirs" asp-action="souvenirs">Souveneirs</a></li>
+        </ul>
+    </nav>
+
+
+    @RenderBody() 
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a asp-controller="Home" asp-action="Aboutus">About us</a>
+            <a asp-controller="Home" asp-action="Contactus">Contact us</a>
+            <a asp-controller="Blog" asp-action="Blog">Blog</a>
+        </div>
+        <p>© 2023 ExploreJordan - All Rights Reserved</p>
+    </footer>
+
+    @RenderSection("Scripts", required: false) 
+    <script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="~/lib/sweetalert2/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

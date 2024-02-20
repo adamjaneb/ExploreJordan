@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    height: 65px;
+}
+
+.container {
+    height: 75px;
+    display: flex;
+}
+
+.logo {
+    width: 350px;
+    height: 75px;
+    margin: 0 100px 0 0; 
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.lang-currency img {
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px 0 200px;
+}
+
+.sign-in img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 100px; 
+}
+
+.search-bar {
+    height: 45px;
+    margin: 10px 15px 10px 70px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+#search-bar {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #3984cc;
+}
+
+.navigation {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: darkgoldenrod;
+}
+
+/*slideshow*/
+.slideshow-images {
+    display: flex;
+}
+
+.slideshow-images img {
+    width: 100%; 
+    height: auto; 
+    display: none; 
+}
+
+.slideshow-container {
+  max-width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+/*  */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+.image-item img {
+    width: 50px;
+    height: auto;
+    margin : 0px 90px;
+}
+/* popular destinations*/
+.destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin: 20px 0;
+}
+
+.destination-item {
+    width: 300px; 
+    height: 150px; 
+    border: 1px solid #000; 
+    border-radius: 10px; 
+}
+
+.destination-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: brightness(80%); 
+    transition: filter 0.3s;
+}
+.destination-item img:hover {
+    filter: brightness(100%);
+}
+/* Styles for the Free Cancellation section */
+h2 {
+    text-align: center;
+}
+
+.cancellation-text {
+    margin-top: 80px;
+    padding-top: 18px; 
+    padding-bottom: 18px; 
+    height: 160px;
+    text-align: center;
+    background-color: #c5dbf1;
+}
+/*blog section */
+.blog-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.blog-section h2 {
+    color: darkgoldenrod; 
+}
+
+.blog-section .line {
+    width: 50px;
+    height: 2px;
+    background-color: black; 
+    margin: 10px auto; 
+}
+
+.blog-section p {
+    text-align: center;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 600px; 
+}
+.blog-section .blog-posts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.blog-section .blog-post {
+    text-align: center;
+    width: 30%; 
+    padding: 10px; 
+}
+
+.blog-section .blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-section .blog-post h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blog-section .blog-post .date {
+    color: #666; 
+    font-size: 16px;
+}
+.view-all-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkgoldenrod; 
+    color: white;
+    border-radius: 25px; 
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: goldenrod; 
+}
+
+/* footer styling */
+.footer {
+    background-color: rgb(2, 2, 58); 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,105 @@
+﻿@{
+    Layout = "_layout"; // Set the layout to "_layout.cshtml"
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ExploreJordan - Homepage</title>
+    <link rel="stylesheet" href="~/css/homepage.css" />
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="slideshow-images">
+            <img src="~/img/slide1.png" class="slide">
+            <img src="~/img/slide2.png" class="slide">
+            <img src="~/img/slide3.png" class="slide">
+            <img src="~/img/slide4.png" class="slide">
+        </div>
+    </div>
+
+    <h3>Why use ExploreJordan?</h3>
+    <div class="image-container">
+        <div class="image-item">
+            <img src="~/img/cancel.png" alt="Free Cancellation">
+            <p>Free Cancellation</p>
+        </div>
+        <div class="image-item">
+            <img src="~/img/custom_package.png" alt="Custom Packages">
+            <p>Custom Packages</p>
+        </div>
+        <div class="image-item">
+            <img src="~/img/loyalty_program.jpg" alt="Loyalty Program">
+            <p>Loyalty Program</p>
+        </div>
+    </div>
+    <hr>
+    <h2>Popular Destinations</h2>
+
+    <div class="destination-container">
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="Amman">
+            <img src="~/img/amman.png" alt="Amman">
+        </a>
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="DeadSea">
+            <img src="~/img/deadsea.png" alt="Dead Sea">
+        </a>
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="Ajloun">
+            <img src="~/img/ajloun.png" alt="Ajloun">
+        </a>
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="Madaba">
+            <img src="~/img/madaba.png" alt="Madaba">
+        </a>
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="Aqaba">
+            <img src="~/img/aqaba.png" alt="Aqaba">
+        </a>
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="Jerash">
+            <img src="~/img/jerash.png" alt="Jerash">
+        </a>
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="Rum">
+            <img src="~/img/rum.png" alt="Wadi Rum">
+        </a>
+        <a class="destination-item" asp-controller="PopularDestinations" asp-action="Petra">
+            <img src="~/img/petra.png" alt="Wadi Rum">
+        </a>
+    </div>
+
+    <div class="cancellation-text">
+        <h2>Free Cancellation</h2>
+        <p>You'll receive a full refund if you cancel at least 24 hours in advance of most experiences.</p>
+    </div>
+    <div class="blog-section">
+        <h2>FROM THE BLOG</h2>
+        <div class="line"></div>
+        <p>On our blog you’ll get a chance to learn a bit more about our users' experiences and tips, and you’ll get a chance to meet the local guides, as they pop in frequently to offer travel tips for their cities and towns.</p>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <a asp-controller="Blog" asp-action="Blog1">
+                    <img src="~/img/blog1.jpg" alt="Image 1">
+                </a>
+                <h1>8 day trip</h1>
+                <p class="date">May 28, 2023</p>
+            </div>
+            <div class="blog-post">
+                <a asp-controller="Blog" asp-action="Blog2">
+                    <img src="~/img/blog2.png" alt="Image 2">
+                </a>
+                <h1>Hiking the Jordan Trail changed my life</h1>
+                <p class="date">April 22, 2022</p>
+            </div>
+            <div class="blog-post">
+                <a asp-controller="Blog" asp-action="Blog3">
+                    <img src="~/img/blog3.jpg" alt="Image 3">
+                </a>
+                <h1>As Salt, Jordan listed on UNESCO heritage list</h1>
+                <p class="date">15 August, 2022</p>
+            </div>
+        </div>
+        <div class="view-all-button">
+            <a asp-controller="Blog" asp-action="Blog" class="button">View all blog posts</a>
+        </div>
+    </div>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

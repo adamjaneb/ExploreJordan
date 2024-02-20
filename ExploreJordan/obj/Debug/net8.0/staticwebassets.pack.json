@@ -1,0 +1,853 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ExploreJordan.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ExploreJordan.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\042f6235-2f50-494d-860a-0cec29aabfc7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\042f6235-2f50-494d-860a-0cec29aabfc7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\0642569d-ba49-4bb9-a9ea-fd34923955a4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\0642569d-ba49-4bb9-a9ea-fd34923955a4.webp"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\06879cca-7efe-41df-8406-5979414c6793.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\06879cca-7efe-41df-8406-5979414c6793.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\06996729-5a65-49bd-814f-acd4e561d7dd.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\06996729-5a65-49bd-814f-acd4e561d7dd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\19c667fe-c572-4c11-b773-f88990485c00.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\19c667fe-c572-4c11-b773-f88990485c00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\37716654-8843-44a8-ba30-fc91ec6c3ef2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\37716654-8843-44a8-ba30-fc91ec6c3ef2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\3d21791e-efb1-4258-afff-e10495998292.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\3d21791e-efb1-4258-afff-e10495998292.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\4ec31ac3-b448-4af7-9775-c3ecbb7d573b.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\4ec31ac3-b448-4af7-9775-c3ecbb7d573b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\60084e44-888f-4b5e-95a7-c3ca4a61b206.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\60084e44-888f-4b5e-95a7-c3ca4a61b206.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\615b6b2d-e243-4b79-b9c4-65c9b26f3e48.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\615b6b2d-e243-4b79-b9c4-65c9b26f3e48.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\6631cbf8-878e-4340-998a-4f8c64cfa068.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\6631cbf8-878e-4340-998a-4f8c64cfa068.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\73a215e8-d7ff-492c-b468-2a28eeb75084.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\73a215e8-d7ff-492c-b468-2a28eeb75084.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\797939b9-95e9-428c-a4a9-605b85467d5a.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\797939b9-95e9-428c-a4a9-605b85467d5a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\8d0f6d7b-144b-44dd-aeaa-98b6101087c9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\8d0f6d7b-144b-44dd-aeaa-98b6101087c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\8fb9a28e-b206-4707-bd37-501996c7c501.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\8fb9a28e-b206-4707-bd37-501996c7c501.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\9355f56f-ea82-4800-ab8f-55b7108305aa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\9355f56f-ea82-4800-ab8f-55b7108305aa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\965c41c7-ef83-4a2d-a766-6d76fca1c4cc.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\965c41c7-ef83-4a2d-a766-6d76fca1c4cc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\b0c0fe19-4bb0-4fb4-8b56-37dc2734acae.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\b0c0fe19-4bb0-4fb4-8b56-37dc2734acae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\c7465fa0-5f77-48cb-8800-9d2412e37e60.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\c7465fa0-5f77-48cb-8800-9d2412e37e60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\c8c05506-dc39-4f27-abc3-3f4f6f9a7f62.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\c8c05506-dc39-4f27-abc3-3f4f6f9a7f62.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\d4447cea-f522-4cdb-93c5-cfe1cf376888.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\d4447cea-f522-4cdb-93c5-cfe1cf376888.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\d4fc4576-8127-4b08-98f8-33f16d2c85f7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\d4fc4576-8127-4b08-98f8-33f16d2c85f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\e58a97d7-0287-49ac-9086-b53295fc85cf.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\e58a97d7-0287-49ac-9086-b53295fc85cf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\assets\\images\\cars\\e60971a1-05fc-47ed-b733-229b767c2841.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\e60971a1-05fc-47ed-b733-229b767c2841.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\Activities.css",
+      "PackagePath": "staticwebassets\\css2\\Activities.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\Amman.css",
+      "PackagePath": "staticwebassets\\css2\\Amman.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\CarRentals.css",
+      "PackagePath": "staticwebassets\\css2\\CarRentals.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\Homepage.css",
+      "PackagePath": "staticwebassets\\css2\\Homepage.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\Souvenirs.css",
+      "PackagePath": "staticwebassets\\css2\\Souvenirs.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\Travel Packages.css",
+      "PackagePath": "staticwebassets\\css2\\Travel Packages.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\ajloun.css",
+      "PackagePath": "staticwebassets\\css2\\ajloun.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\aqaba.css",
+      "PackagePath": "staticwebassets\\css2\\aqaba.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\deadsea.css",
+      "PackagePath": "staticwebassets\\css2\\deadsea.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\jerash.css",
+      "PackagePath": "staticwebassets\\css2\\jerash.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\madaba.css",
+      "PackagePath": "staticwebassets\\css2\\madaba.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\petra.css",
+      "PackagePath": "staticwebassets\\css2\\petra.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\rum.css",
+      "PackagePath": "staticwebassets\\css2\\rum.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css2\\tourspage.css",
+      "PackagePath": "staticwebassets\\css2\\tourspage.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\aboutus.css",
+      "PackagePath": "staticwebassets\\css\\aboutus.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\blog1.css",
+      "PackagePath": "staticwebassets\\css\\blog1.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\blog2.css",
+      "PackagePath": "staticwebassets\\css\\blog2.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\blog3.css",
+      "PackagePath": "staticwebassets\\css\\blog3.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\blog4.css",
+      "PackagePath": "staticwebassets\\css\\blog4.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\blog5.css",
+      "PackagePath": "staticwebassets\\css\\blog5.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\blog6.css",
+      "PackagePath": "staticwebassets\\css\\blog6.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\contactus.css",
+      "PackagePath": "staticwebassets\\css\\contactus.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\Amman.css",
+      "PackagePath": "staticwebassets\\csspop\\Amman.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\ajloun.css",
+      "PackagePath": "staticwebassets\\csspop\\ajloun.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\aqaba.css",
+      "PackagePath": "staticwebassets\\csspop\\aqaba.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\deadsea.css",
+      "PackagePath": "staticwebassets\\csspop\\deadsea.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\jerash.css",
+      "PackagePath": "staticwebassets\\csspop\\jerash.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\madaba.css",
+      "PackagePath": "staticwebassets\\csspop\\madaba.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\petra.css",
+      "PackagePath": "staticwebassets\\csspop\\petra.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\csspop\\rum.css",
+      "PackagePath": "staticwebassets\\csspop\\rum.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\1H.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\1H.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\4.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\5.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\6.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 1\\7.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 1\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 2\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 2\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 2\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 2\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 2\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 2\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 3\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 3\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 4\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 4\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Activities\\List 5\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Activities\\List 5\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Ajloun\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Ajloun\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Ajloun\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\Ajloun\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Ajloun\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Ajloun\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Amman.png",
+      "PackagePath": "staticwebassets\\img2\\Amman.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Amman\\1.jpeg",
+      "PackagePath": "staticwebassets\\img2\\Amman\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Amman\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Amman\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Amman\\2.jpeg",
+      "PackagePath": "staticwebassets\\img2\\Amman\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Amman\\2.png",
+      "PackagePath": "staticwebassets\\img2\\Amman\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Amman\\3.jpeg",
+      "PackagePath": "staticwebassets\\img2\\Amman\\3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Amman\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Amman\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Aqaba\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Aqaba\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Aqaba\\2.jpeg",
+      "PackagePath": "staticwebassets\\img2\\Aqaba\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Aqaba\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Aqaba\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Deadsea\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Deadsea\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Deadsea\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\Deadsea\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Deadsea\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Deadsea\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Jerash\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Jerash\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Jerash\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\Jerash\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Jerash\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Jerash\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Madaba\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Madaba\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Madaba\\2.jpeg",
+      "PackagePath": "staticwebassets\\img2\\Madaba\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Madaba\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Madaba\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Petra\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Petra\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Petra\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\Petra\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Petra\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Petra\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Souvenirs\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\Souvenirs\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Souvenirs\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\Souvenirs\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Souvenirs\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\Souvenirs\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Souvenirs\\4.png",
+      "PackagePath": "staticwebassets\\img2\\Souvenirs\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\Souvenirs\\5.jpg",
+      "PackagePath": "staticwebassets\\img2\\Souvenirs\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\ajloun.png",
+      "PackagePath": "staticwebassets\\img2\\ajloun.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\aqaba.png",
+      "PackagePath": "staticwebassets\\img2\\aqaba.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\deadsea.png",
+      "PackagePath": "staticwebassets\\img2\\deadsea.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\jerash.png",
+      "PackagePath": "staticwebassets\\img2\\jerash.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\madaba.png",
+      "PackagePath": "staticwebassets\\img2\\madaba.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\petra.png",
+      "PackagePath": "staticwebassets\\img2\\petra.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\rum.png",
+      "PackagePath": "staticwebassets\\img2\\rum.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\rum\\1.jpg",
+      "PackagePath": "staticwebassets\\img2\\rum\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\rum\\2.jpg",
+      "PackagePath": "staticwebassets\\img2\\rum\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img2\\rum\\3.jpg",
+      "PackagePath": "staticwebassets\\img2\\rum\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\Amman.png",
+      "PackagePath": "staticwebassets\\img\\Amman.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\Lang.png",
+      "PackagePath": "staticwebassets\\img\\Lang.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\Login.png",
+      "PackagePath": "staticwebassets\\img\\Login.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\Logo2.png",
+      "PackagePath": "staticwebassets\\img\\Logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\aboutus.jpg",
+      "PackagePath": "staticwebassets\\img\\aboutus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\ajloun.png",
+      "PackagePath": "staticwebassets\\img\\ajloun.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\aqaba.png",
+      "PackagePath": "staticwebassets\\img\\aqaba.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\banner.png",
+      "PackagePath": "staticwebassets\\img\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\blog1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\blog2.png",
+      "PackagePath": "staticwebassets\\img\\blog2.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\blog3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\blog4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\blog5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\blog6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\blog6.png",
+      "PackagePath": "staticwebassets\\img\\blog6.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\cancel.png",
+      "PackagePath": "staticwebassets\\img\\cancel.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\custom_package.png",
+      "PackagePath": "staticwebassets\\img\\custom_package.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\deadsea.png",
+      "PackagePath": "staticwebassets\\img\\deadsea.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\jerash.png",
+      "PackagePath": "staticwebassets\\img\\jerash.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\loyalty_program.jpg",
+      "PackagePath": "staticwebassets\\img\\loyalty_program.jpg"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\madaba.png",
+      "PackagePath": "staticwebassets\\img\\madaba.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\petra.png",
+      "PackagePath": "staticwebassets\\img\\petra.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\rum.png",
+      "PackagePath": "staticwebassets\\img\\rum.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\search_icon.png",
+      "PackagePath": "staticwebassets\\img\\search_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\slide1.png",
+      "PackagePath": "staticwebassets\\img\\slide1.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\slide2.png",
+      "PackagePath": "staticwebassets\\img\\slide2.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\slide3.png",
+      "PackagePath": "staticwebassets\\img\\slide3.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\img\\slide4.png",
+      "PackagePath": "staticwebassets\\img\\slide4.png"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\js\\accomodation-delete.js",
+      "PackagePath": "staticwebassets\\js\\accomodation-delete.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\js\\activities-delete.js",
+      "PackagePath": "staticwebassets\\js\\activities-delete.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\js\\cars-delete.js",
+      "PackagePath": "staticwebassets\\js\\cars-delete.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\js\\souvenirs-delete.js",
+      "PackagePath": "staticwebassets\\js\\souvenirs-delete.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\js\\tours-delete.js",
+      "PackagePath": "staticwebassets\\js\\tours-delete.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\96277\\Desktop\\projects\\ExploreJordan\\ExploreJordan\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ExploreJordan.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ExploreJordan.props",
+      "PackagePath": "build\\ExploreJordan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ExploreJordan.props",
+      "PackagePath": "buildMultiTargeting\\ExploreJordan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ExploreJordan.props",
+      "PackagePath": "buildTransitive\\ExploreJordan.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

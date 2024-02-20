@@ -1,0 +1,209 @@
+﻿@using ExploreJordan.Settings;
+@using System.Security.Claims
+
+@model ExploreJordan.ViewModels.CombinedViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/csspop/ajloun.css" rel="stylesheet" />
+    <title>Search</title>
+</head>
+<body>
+    <div class="Popular">
+        <h2 style="text-align: center; margin-top: 125px;">Search results</h2>
+    </div>
+
+    <div class="conwrap">
+        @if (Model != null)
+        {
+            @if (Model.Activities != null)
+            {
+                @foreach (var activity in Model.Activities)
+                {
+                    if (activity.Name.IndexOf(Context.Request.Query["searchQuery"].ToString(), StringComparison.OrdinalIgnoreCase) != -1 ||
+                    activity.Name.ToLower().Contains(Context.Request.Query["searchQuery"].ToString().ToLower()) ||
+                    Context.Request.Query["searchQuery"].ToString().ToLower().Split(' ').Any(s => activity.Name.ToLower().Contains(s)))
+                    {
+                        <div class="CarRentalContainer0">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@activity.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{activity.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@activity.Description</div>
+                                        </div>
+                                        <div class="style-052">
+                                            <span class="style-053">
+                                                <span class="style-054">@activity.Price</span>
+                                                <span class="style-055">JD</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Activities" asp-action="Details" asp-route-id="@activity.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            @if (Model.Cars != null)
+            {
+                @foreach (var car in Model.Cars)
+                {
+                    if (car.Name.IndexOf(Context.Request.Query["searchQuery"].ToString(), StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    car.Name.ToLower().Contains(Context.Request.Query["searchQuery"].ToString().ToLower()) ||
+                    Context.Request.Query["searchQuery"].ToString().ToLower().Contains(car.Name.ToLower()))
+                    {
+                        <div class="CarRentalContainer">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@car.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{car.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@car.Description</div>
+                                        </div>
+                                        <div class="style-052">
+                                            <span class="style-053">
+                                                <span class="style-054">@car.Price</span>
+                                                <span class="style-055">JD/Day</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Cars" asp-action="Details" asp-route-id="@car.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            @if (Model.Accommodations != null)
+            {
+                @foreach (var accommodation in Model.Accommodations)
+                {
+                    if (accommodation.Name.IndexOf(Context.Request.Query["searchQuery"].ToString(), StringComparison.OrdinalIgnoreCase) >= 0 || Context.Request.Query["searchQuery"].ToString().IndexOf(accommodation.Name, StringComparison.OrdinalIgnoreCase) >= 0)
+                    {
+                        <div class="CarRentalContainer">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@accommodation.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{accommodation.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@accommodation.Description</div>
+                                        </div>
+                                        <div class="style-052">
+                                            <span class="style-053">
+                                                <span class="style-054">@accommodation.Price</span>
+                                                <span class="style-055">JD/Day</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Accommodation" asp-action="Details" asp-route-id="@accommodation.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+
+            @if (Model.Tours != null)
+            {
+                @foreach (var tour in Model.Tours)
+                {
+                    if (tour.Name.IndexOf(Context.Request.Query["searchQuery"].ToString(), StringComparison.OrdinalIgnoreCase) >= 0 || Context.Request.Query["searchQuery"].ToString().IndexOf(tour.Name, StringComparison.OrdinalIgnoreCase) >= 0)
+                    {
+                        <div class="CarRentalContainer">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@tour.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{tour.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@tour.Description</div>
+                                        </div>
+                                        <div class="style-052">
+                                            <span class="style-053">
+                                                <span class="style-054">@tour.Price</span>
+                                                <span class="style-055">JD</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Tours" asp-action="Details" asp-route-id="@tour.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+        }
+    </div>
+</body>
+</html>

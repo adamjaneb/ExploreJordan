@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    overflow-x: hidden;
+}
+p {
+    z-index: 1px;
+}
+.about-us-content {
+    margin: 130px auto 0 auto;
+    overflow: hidden;
+    height: 890px;
+}
+
+.about-us-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-us-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container {
+    display: flex;
+    z-index: 1000;
+    position: relative;
+    margin-bottom: 100px; 
+}
+.section {
+    margin: 20px;
+    font-family: 'Brush Script MT', cursive;
+}

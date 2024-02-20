@@ -1,0 +1,37 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+<style>
+    /* Add styles for the logo */
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin-left: 570px;
+    }
+    p{
+        margin-left:530px;
+    }
+   
+</style>
+<div class="logo" id="logo">
+    <a asp-controller="Home" asp-action="Homepage">
+        <img src="~/img/Logo2.png" alt="Your Logo" />
+    </a>
+</div>
+@{
+    if (@Model.DisplayConfirmAccountLink)
+    {
+        <p>
+            Please check your email to confirm your account.
+        </p>
+    }
+    else
+    {
+<p>
+        Please check your email to confirm your account.
+</p>
+    }
+}
+

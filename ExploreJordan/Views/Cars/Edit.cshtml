@@ -1,0 +1,40 @@
+﻿@model ExploreJordan.ViewModels.EditCarFormViewModel
+@{
+	ViewData["Title"] = "Edit advertisment";
+}
+<style>
+	form {
+		margin-top: 130px;
+	}
+</style>
+<form asp-controller="Cars" enctype="multipart/form-data">
+	<div class="row">
+		<div class="col-md-6">
+			<label asp-for="Name" class="from-label mt-4"></label>
+			<input type="text" class="form-control" asp-for="Name" placeholder="Name" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="col-md-6">
+			<label asp-for="Description" class="from-label mt-4"></label>
+			<textarea class="form-control" asp-for="Description" placeholder="Description"></textarea>
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+		<div class="col-md-6">
+			<label asp-for="Price" class="from-label mt-4"></label>
+			<input type="number" class="form-control" asp-for="Price" placeholder="Price" />
+			<span asp-validation-for="Price" class="text-danger"></span>
+		</div>
+		<div class="col-md-6">
+			<label asp-for="Address" class="from-label mt-4"></label>
+			<input type="text" class="form-control" asp-for="Address" placeholder="Address" />
+			<span asp-validation-for="Address" class="text-danger"></span>
+		</div>
+		<div class="col-md-6">
+			<label asp-for="Cover" class="from-label mt-4"></label>
+			<input type="file" class="form-control" asp-for="Cover" />
+			<span asp-validation-for="Cover" class="text-danger"></span>
+		</div>
+		<button type="submit" class="btn btn-light text-black mt-4">Save</button>
+		<div class="col-md-6"></div>
+	</div>
+</form>

@@ -1,0 +1,217 @@
+﻿@using ExploreJordan.Settings;
+@using System.Security.Claims
+
+@model ExploreJordan.ViewModels.CombinedViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="~/csspop/madaba.css" rel="stylesheet" />
+    <title>Madaba</title>
+</head>
+<body>
+    <div class="Popular">
+        <h2 style="text-align: center;margin-top:125px;">Madaba</h2>
+    </div>
+	
+    <div class="style-0">
+        <div class="style-1">
+            <div class="style-2">
+                <div class="style-3" data-ft="true">
+                    <div class="style-4">
+                        <div class="style-5">
+                            <button aria-label="See all photos" class="style-6">
+                                <picture class="style-7">
+                                    <img src="~/img2/madaba/1.jpg" width="720" height="480" role="none" alt="" fetchpriority="high" class="style-11" />
+                                </picture>
+                            </button><button aria-label="See all photos" class="style-12">
+                                <picture class="style-13">
+                                    <img src="~/img2/madaba/2.jpeg" width="720" height="480" role="none" alt="" fetchpriority="high" class="style-17" />
+                                </picture>
+                            </button><button aria-label="See all photos" class="style-18">
+                                <picture class="style-19">
+                                    <img src="~/img2/madaba/3.jpg" width="720" height="480" role="none" alt="" fetchpriority="high" class="style-23" />
+
+                                </picture>
+                            </button>
+                        </div>
+                        <div class="style-27"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-28">
+                <div class="style-29">
+                    <section class="style-30">
+                        <div data-automation="WebPresentation_ProductAboveTheFoldInfo" class="style-31">
+                            <div class="style-32" data-ft="true">
+                                <div class="style-33">
+                                    <div class="style-34">
+                                        <div class="style-35">
+                                            <div class="style-36">About</div>
+                                        </div>
+                                    </div>
+                                    <div class="style-37">
+                                        <div class="style-38">
+                                            <div class="style-39">
+                                                <div class="style-40"><p>Madaba, nestled in central Jordan, is a city brimming with history, mosaic art, and religious significance. Here's a glimpse into its fascinating world: <p>Ancient City with Modern Charm:</p><p>Founded around 3000 BC, Madaba boasts a rich history, witnessing the rise and fall of empires like the Moabites, Nabataeans, Romans, Byzantines, and Ottomans.Despite its ancient origins, Madaba thrives as a modern city, offering a vibrant atmosphere with bustling markets, traditional restaurants, and contemporary shops.</p><p>Mosaic Marvels:</p><p>Madaba is renowned for its stunning Byzantine and Umayyad mosaics, earning the title "City of Mosaics."The most famous mosaic is housed in the Church of St. George, depicting the Holy Land from the Nile River to the Dead Sea, considered the oldest map of the Holy Land.Other notable mosaics can be found in the Madaba Archaeological Park, the Church of the Virgin Mary, and the Greek Orthodox Church of St. John the Baptist.</p><p>Religious Significance:</p><p>Madaba holds significant importance for Christians and Muslims alike.</p><p>Experience the magic of Madaba:</p><p>Immerse yourself in the city's rich history and vibrant culture.Marvel at the intricate mosaics, whispering stories of the past.Discover the religious significance of this ancient land.Enjoy the warmth and hospitality of the Jordanian people.</p></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="conwrap">
+        @if (Model != null)
+        {
+            @if (Model.Activities != null)
+            {
+                @foreach (var activity in Model.Activities)
+                {
+                    if (activity.City != null && activity.City.Trim().Equals("Madaba", StringComparison.OrdinalIgnoreCase))
+                    {
+                        <div class="CarRentalContainer0">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@activity.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{activity.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@activity.Description</div>
+                                        </div>
+                                        <div class="style-052">
+
+                                            <span class="style-053">
+                                                <span class="style-054">@activity.Price</span>
+                                                <span class="style-055">JD</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Activities" asp-action="Details" asp-route-id="@activity.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+
+            @if (Model.Accommodations != null)
+            {
+                @foreach (var accommodation in Model.Accommodations)
+                {
+                    if (accommodation.City != null && accommodation.City.Trim().Equals("Madaba", StringComparison.OrdinalIgnoreCase))
+                    {
+                        <div class="CarRentalContainer">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@accommodation.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{accommodation.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@accommodation.Description</div>
+                                        </div>
+                                        <div class="style-052">
+
+                                            <span class="style-053">
+                                                <span class="style-054">@accommodation.Price</span>
+                                                <span class="style-055">JD/Day</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Accommodation" asp-action="Details" asp-route-id="@accommodation.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+
+            @if (Model.Tours != null)
+            {
+                @foreach (var tour in Model.Tours)
+                {
+                    if (tour.City != null && tour.City.Trim().Equals("Madaba", StringComparison.OrdinalIgnoreCase))
+                    {
+                        <div class="CarRentalContainer">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@tour.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{tour.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@tour.Description</div>
+                                        </div>
+                                        <div class="style-052">
+
+                                            <span class="style-053">
+                                                <span class="style-054">@tour.Price</span>
+                                                <span class="style-055">JD</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Tours" asp-action="Details" asp-route-id="@tour.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+        }
+
+    </div>
+</body>
+</html>

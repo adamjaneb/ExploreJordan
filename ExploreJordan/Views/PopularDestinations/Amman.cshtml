@@ -1,0 +1,216 @@
+﻿@using ExploreJordan.Settings;
+@using System.Security.Claims
+
+@model ExploreJordan.ViewModels.CombinedViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/csspop/amman.css" rel="stylesheet" />
+    <title>Amman</title>
+</head>
+<body>
+    <div class="Popular">
+        <h2 style="text-align: center; margin-top:125px;">Amman</h2>
+    </div>
+    <div class="style-0">
+        <div class="style-1">
+            <div class="style-2">
+                <div class="style-3" data-ft="true">
+                    <div class="style-4">
+                        <div class="style-5">
+                            <button aria-label="See all photos" class="style-6">
+                                <picture class="style-7">
+                                    <img src="~/img2/amman/3.jpg" width="720" height="480" role="none" alt="" fetchpriority="high" class="style-11" />
+                                </picture>
+                            </button><button aria-label="See all photos" class="style-12">
+                                <picture>
+                                    <img src="~/img2/amman/1.jpg" width="720" height="480" role="none" alt="" fetchpriority="high" class="style-17" />
+                                </picture>
+                            </button><button aria-label="See all photos" class="style-18">
+                                <picture class="style-19">
+                                    <img src="~/img2/amman/2.png" width="720" height="480" role="none" alt="" fetchpriority="high" class="style-23" />
+
+                                </picture>
+                            </button>
+                        </div>
+                        <div class="style-27"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-28">
+                <div class="style-29">
+                    <section class="style-30">
+                        <div data-automation="WebPresentation_ProductAboveTheFoldInfo" class="style-31">
+                            <div class="style-32" data-ft="true">
+                                <div class="style-33">
+                                    <div class="style-34">
+                                        <div class="style-35">
+                                            <div class="style-36">About</div>
+                                        </div>
+                                    </div>
+                                    <div class="style-37">
+                                        <div class="style-38">
+                                            <div class="style-39">
+                                                <div class="style-40"><p>Amman, Jordan's capital and largest city, is a captivating blend of ancient history and modern vibrancy. Nestled amidst rolling hills, it boasts a rich tapestry of cultures and eras, offering something for every traveler.<p>History & Culture:</p><p>Citadel: Perched atop Jabal al-Qala'a hill, this 7th-century citadel offers stunning panoramic views and houses the remnants of Roman, Byzantine, and Umayyad structures, like the Temple of Hercules and the Umayyad Palace.Roman Theatre: This 2nd-century Roman amphitheater, carved into a hillside, still hosts cultural events and concerts, transporting you back in time.Jordan Museum: Immerse yourself in Jordan's rich heritage with artifacts spanning prehistoric times to the present day, including Dead Sea Scrolls and Nabataean treasures.Rainbow Street: Wander down this vibrant pedestrian street lined with art galleries, cafes, and shops, pulsating with the energy of Amman's contemporary art and culture scene.</p><p>Modernity & Lifestyle:</p></p>Abdali Boulevard: This modern district boasts upscale shopping malls, luxury hotels, and trendy restaurants, showcasing Amman's cosmopolitan face. Souk Jara: Dive into the bustling atmosphere of this open-air market, where local artisans showcase their handcrafted treasures, from jewelry and textiles to pottery and souvenirs.King Abdullah I Mosque: This majestic blue-domed mosque, known for its Ottoman architecture and intricate mosaics, offers a glimpse into Islamic art and culture.Al-Balad: Explore the heart of old Amman, a labyrinthine maze of narrow streets and traditional houses, where local shops and cafes offer authentic experiences.</p></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="conwrap">
+        @if (Model != null)
+        {
+            @if (Model.Activities != null)
+            {
+                @foreach (var activity in Model.Activities)
+                {
+                    if (activity.City != null && activity.City.Trim().Equals("Amman", StringComparison.OrdinalIgnoreCase))
+                    {
+                        <div class="CarRentalContainer0">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@activity.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{activity.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@activity.Description</div>
+                                        </div>
+                                        <div class="style-052">
+                                           
+                                            <span class="style-053">
+                                                <span class="style-054">@activity.Price</span>
+                                                <span class="style-055">JD</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Activities" asp-action="Details" asp-route-id="@activity.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+
+            @if (Model.Accommodations != null)
+            {
+                @foreach (var accommodation in Model.Accommodations)
+                {
+                    if (accommodation.City != null && accommodation.City.Trim().Equals("Amman", StringComparison.OrdinalIgnoreCase))
+                    {
+                        <div class="CarRentalContainer">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@accommodation.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{accommodation.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@accommodation.Description</div>
+                                        </div>
+                                        <div class="style-052">
+                                           
+                                            <span class="style-053">
+                                                <span class="style-054">@accommodation.Price</span>
+                                                <span class="style-055">JD/Day</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Accommodation" asp-action="Details" asp-route-id="@accommodation.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+
+            @if (Model.Tours != null)
+            {
+                @foreach (var tour in Model.Tours)
+                {
+                    if (tour.City != null && tour.City.Trim().Equals("Amman", StringComparison.OrdinalIgnoreCase))
+                    {
+                        <div class="CarRentalContainer">
+                            <div class="style-00">
+                                <div class="style-01">
+                                    <div class="style-02">
+                                        <div class="style-03">
+                                            <div class="style-05">
+                                                <span class="style-06">
+                                                    <span class="style-07">@tour.Name</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="imagesize0">
+                                            <img src="@($"{FileSettings.ImagesPath}/{tour.Cover}")" alt="Car Image" />
+                                        </div>
+                                        <div class="style-09">
+                                            <div>@tour.Description</div>
+                                        </div>
+                                        <div class="style-052">
+                                   
+                                            <span class="style-053">
+                                                <span class="style-054">@tour.Price</span>
+                                                <span class="style-055">JD</span>
+                                            </span>
+                                        </div>
+                                        <div class="style-051">
+                                            <div class="style-056" data-testid="rc-itinerary-cta-button">
+                                                <div class="style-057">
+                                                    <a asp-controller="Tours" asp-action="Details" asp-route-id="@tour.Id" class="style-058">
+                                                        <div class="style-059">View Deal</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+        }
+    </div>
+</body>
+</html>

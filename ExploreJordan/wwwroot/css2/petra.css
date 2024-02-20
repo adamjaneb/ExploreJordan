@@ -1,0 +1,731 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    height: 65px;
+}
+
+.container {
+    height: 75px;
+    display: flex;
+}
+
+.logo {
+    width: 350px;
+    height: 75px;
+    margin: 0 100px 0 0; 
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.lang-currency img {
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px 0 200px;
+}
+
+.sign-in img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 100px; 
+}
+
+.search-bar {
+    height: 45px;
+    margin: 10px 15px 10px 70px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+#search-bar {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #3984cc;
+}
+
+.navigation {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: darkgoldenrod;
+}
+
+/* popular destinations*/
+.style-0 {
+    box-sizing: border-box;
+    max-width: 100%;
+    width: calc(1136px + 24px*2);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: auto;
+    padding: 0px 24px;
+}
+
+.style-1 {
+    column-gap: 4px;
+    display: grid;
+    grid-template: 'hero hero' auto 'primary booking' auto / 7fr 5fr;
+    margin: 0px;
+    padding: 0px 0px 16px;
+    padding-bottom: 16px;
+}
+
+.style-2 {
+    grid-area: hero / hero / hero / hero;
+    margin-bottom: 32px;
+    row-gap: 24px;
+    margin: 0px 0px 32px;
+    padding: 0px;
+    display: grid;
+}
+
+.style-3 {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.style-4 {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.style-5 {
+    --_GaSs42MG: calc(4px/2);
+    --_jMFdNi2a: calc(50% - calc(4px/2));
+    grid-template-areas: 'left top' 'left bottom';
+    grid-template-columns: 660.312px 471.688px;
+    grid-template-rows: 201.5px 201.5px;
+    height: 407px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border-end-end-radius: 12px;
+    border-end-start-radius: 12px;
+    border-start-end-radius: 12px;
+    border-start-start-radius: 12px;
+    --_bV1phQZ9: 0.75rem;
+    gap: 4px;
+    display: grid;
+    overflow: hidden;
+}
+
+.style-6 {
+    transition: opacity 0.1s linear 0s;
+    grid-area: left / left / left / left;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    background-color: rgb(224, 224, 224);
+    border: 0px none rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.style-7 {
+    transition: opacity 0.1s linear 0s;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 407px;
+    width: 100%;
+    border-radius: 0px;
+    display: block;
+}
+
+.style-8 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-9 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-10 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-11 {
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 407px;
+    width: 100%;
+}
+
+.style-12 {
+    transition: opacity 0.1s linear 0s;
+    grid-area: top / top / top / top;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    background-color: rgb(224, 224, 224);
+    border: 0px none rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.style-13 {
+    transition: opacity 0.1s linear 0s;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 201.5px;
+    width: 100%;
+    border-radius: 0px;
+    display: block;
+}
+
+.style-14 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-15 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-16 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-17 {
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 201.5px;
+    width: 100%;
+}
+
+.style-18 {
+    transition: opacity 0.1s linear 0s;
+    grid-area: bottom / bottom / bottom / bottom;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    background-color: rgb(224, 224, 224);
+    border: 0px none rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.style-19 {
+    transition: opacity 0.1s linear 0s;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 201.5px;
+    width: 100%;
+    border-radius: 0px;
+    display: block;
+}
+
+.style-20 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-21 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-22 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-23 {
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 201.5px;
+    width: 100%;
+}
+
+.style-24 {
+    bottom: 16px;
+    position: absolute;
+    right: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-25 {
+    border-radius: 20px;
+    padding: 10px 16px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    transition: color 0.1s linear 0s, background-color 0.1s linear 0s, border-color 0.1s linear 0s;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    cursor: pointer;
+    appearance: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.style-26 {
+    margin: 0px;
+    padding: 0px;
+    font: 700 16px / 20px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-style: normal;
+}
+
+.style-27 {
+    border-radius: 0px 0px 2px 2px;
+    border-top: 0px none rgb(0, 0, 0);
+    left: 20px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    line-height: 0px;
+    position: absolute;
+}
+
+.style-28 {
+    grid-area: primary / primary / primary / primary;
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-29 {
+    grid-auto-rows: min-content;
+    transition: top 0.25s cubic-bezier(0.25, 0.1, 0, 1) 0s;
+    margin: 0px;
+    padding: 0px;
+    position: sticky;
+    display: grid;
+}
+
+.style-30 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.style-31 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-32 {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.style-33 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 24px;
+    padding: 0px;
+    margin-bottom: 24px;
+}
+
+.style-34 {
+    align-items: flex-start;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.style-35 {
+    flex: 1 0 auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-36 {
+    margin: 0px;
+    padding: 0px;
+    font: 700 16px / 19px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+.style-37 {
+    margin: 24px 0px 0px;
+    padding: 0px;
+    font: 16px / 22px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin-top: 24px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+.style-38 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+}
+
+
+.style-39 {
+    -webkit-line-clamp: 3;
+    line-break: normal;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+.style-40 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    white-space: pre-wrap;
+}
+
+.style-41 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.style-42 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-43 {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.style-44 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.style-45 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-46 {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.style-47 {
+    margin: 0px 0px 24px;
+    padding: 0px;
+    border-right: 0px none rgb(0, 0, 0);
+    border-bottom: 0px none rgb(0, 0, 0);
+    border-left: 0px none rgb(0, 0, 0);
+    border-image: none;
+    border-top: 4px solid rgb(224, 224, 224);
+    margin-bottom: 24px;
+}
+
+.style-48 {
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
+    display: grid;
+}
+
+.style-49 {
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.style-50 {
+    margin-top: 2px;
+    padding: 0px;
+}
+
+.style-51 {
+    margin: 0px;
+    padding: 0px;
+    fill: rgb(0, 0, 0);
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.style-52 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-53 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-54 {
+    margin: 0px 4px 0px 0px;
+    padding: 0px;
+    font: 16px / 22px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin-right: 4px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+.style-55 {
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.style-56 {
+    margin-top: 2px;
+    padding: 0px;
+}
+
+.style-57{
+    margin: 0px;
+    padding: 0px;
+    fill: rgb(0, 0, 0);
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.style-58 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-59 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-60 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-61 {
+    margin: 0px 4px 0px 0px;
+    padding: 0px;
+    font: 16px / 22px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin-right: 4px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+.style-62 {
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.style-63 {
+    margin-top: 2px;
+    padding: 0px;
+}
+
+.style-64 {
+    margin: 0px;
+    padding: 0px;
+    fill: rgb(0, 0, 0);
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.style-65 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-66 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-67 {
+    margin: 0px 4px 0px 0px;
+    padding: 0px;
+    font: 16px / 22px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin-right: 4px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+
+.style-68 {
+    margin: 24px 0px 0px;
+    padding: 0px;
+    border-right: 0px none rgb(0, 0, 0);
+    border-bottom: 0px none rgb(0, 0, 0);
+    border-left: 0px none rgb(0, 0, 0);
+    border-image: none;
+    border-top: 4px solid rgb(224, 224, 224);
+    margin-top: 24px;
+}
+
+.style-69 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.style-70 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-71 {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.style-72 {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.style-73 {
+    margin: 16px 0px;
+    padding: 0px;
+    font: 700 16px / 19px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+.style-74 {
+    margin: 0px;
+    padding: 0px;
+    font: 16px / 22px 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+.style-75 {
+    list-style: outside none disc;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin: 0px 0px 16px 16px;
+    padding: 0px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.style-76 {
+    margin-bottom: 8px;
+    padding: 0px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.style-77 {
+    margin-bottom: 8px;
+    padding: 0px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.style-78 {
+    margin-bottom: 8px;
+    padding: 0px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.style-79 {
+    margin-bottom: 8px;
+    padding: 0px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* footer styling */
+.footer {
+    background-color: rgb(2, 2, 58); 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Blog";
+    Layout = "_layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog - ExploreJordan</title>
+    <link rel="stylesheet" href="~/css/blog.css">
+</head>
+<body>
+  
+    <div class="blog-section">
+        <div class="blog-header">
+            <h2>ExploreJordan Blog</h2>
+            <p>Sharing our travel expertise, local knowledge, and industry insights.</p>
+        </div>
+
+        <div class="blog-container">
+            <!-- Blog Post 1 -->
+            <div class="blog-post">
+                <img src="~/img/blog1.jpg" alt="Blog Post 1">
+                <div class="blog-details">
+                    <h3>Hiking the Jordan Trail changed my life – and I’m not alone</h3>
+                    <p class="date">Published on: May 28, 2023</p>
+                    <a asp-controller="Blog" asp-action="Blog1">Read more</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="blog-post">
+                <img src="~/img/blog2.png" alt="Blog Post 2">
+                <div class="blog-details">
+                    <h3>As-Salt, Jordan Listed on UNESCO World Heritage List</h3>
+                    <p class="date">Published on: April 22, 2022</p>
+                    <a asp-controller="Blog" asp-action="Blog2">Read more</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="blog-post">
+                <img src="~/img/blog3.jpg" alt="Blog Post 3">
+                <div class="blog-details">
+                    <h3>8 Day Trip</h3>
+                    <p class="date">Published on: August 15, 2022</p>
+                    <a asp-controller="Blog" asp-action="Blog3">Read more</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 4 -->
+            <div class="blog-post">
+                <img src="~/img/blog4.jpg" alt="Blog Post 4">
+                <div class="blog-details">
+                    <h3>In Jordan, to Grandmother’s House We Go</h3>
+                    <p class="date">Published on: November 17, 2023</p>
+                    <a asp-controller="Blog" asp-action="Blog4">Read more</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 5 -->
+            <div class="blog-post">
+                <img src="~/img/blog5.jpg" alt="Blog Post 5">
+                <div class="blog-details">
+                    <h3>The Lowest Point on Earth with the Highest Level of Wellness & Healing</h3>
+                    <p class="date">Published on: January 10, 2023</p>
+                    <a asp-controller="Blog" asp-action="Blog5">Read more</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 6 -->
+            <div class="blog-post">
+                <div class = "img6">
+                    <img src="~/img/blog6.jpg" alt="Blog Post 6">
+                </div>
+                <div class="blog-details">
+                    <h3>Experiencing Bethany Beyond the Jordan - The Site of Jesus’ Baptism</h3>
+                    <p class="date">Published on: November 25, 2021</p>
+                    <a asp-controller="Blog" asp-action="Blog6">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="email-info">
+        <p>Send your articles: <a href="mailto:blog@explorejordan.com">blog@explorejordan.com</a></p>
+    </div>
+
+</body>
+</html>
+
+
+
