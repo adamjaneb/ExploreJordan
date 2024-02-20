@@ -1,0 +1,1 @@
+This project is a marketplace for tourism in Jordan, developed using ASP.NET. It aims to provide a platform where users can discover, book, and explore various tourism services and destinations in Jordan.
