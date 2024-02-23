@@ -11,6 +11,8 @@ well as publish articles on the blog.
 
 *How to run?*
 
-In Visual Studio, select 'Clone a repository' and enter the following URL: https://github.com/adamjaneb/ExploreJordan. After cloning the repository, simply run the solution.
+In Visual Studio, select 'Clone a repository' and enter the following URL: https://github.com/adamjaneb/ExploreJordan. After cloning the repository, simply run the solution.If the project failed to run, change the https to http :
+![Screenshot (189)](https://github.com/adamjaneb/ExploreJordan/assets/149564825/2a82233d-4d40-455d-8f41-c67626d81e59)
+
 
 If you plan to use the database, set it up using the provided db.ipynb file. and make sure to edit the database connection string in the appsettings.json file to match your configuration.
